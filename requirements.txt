@@ -1,5 +1,6 @@
-cx-Oracle==8.3.0
-distlib==0.3.8
-filelock==3.13.1
-platformdirs==4.1.0
-virtualenv==20.25.0
+asgiref==3.7.2
+backports.zoneinfo==0.2.1
+Django==4.2.11
+sqlparse==0.4.4
+typing-extensions==4.10.0
+tzdata==2024.1

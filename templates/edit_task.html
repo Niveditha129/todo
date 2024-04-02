@@ -9,9 +9,8 @@
 </head>
 <body>
     <div>
-        <h3 class="mt-5 text-center">Django ToDo App-Edit Task</h3>
-        <form action="{% url 'edit_task' get_task.pk %}" method="POST" style="width:500px; margin:auto;">
-            {% csrf_token %}
+        <h3 class="text-center p-5">Django TODO App Edit Task</h3>
+        <form action="{% url 'edit' get_task.pk %}" method="POST" style="width:500px; margin:auto;">{% csrf_token %}
             <div class="form-group">
                 <span style="display: flex;">
                     <input type="text" name="task" class="form-control" placeholder="Add a task" value="{{get_task.task}}">

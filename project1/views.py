@@ -10,4 +10,4 @@ def home(request):
         'tasks':tasks,
         'completed_tasks':completed_tasks
     }
-    return render(request,'home.html',context)
+    return render(request,"home.html",context)
